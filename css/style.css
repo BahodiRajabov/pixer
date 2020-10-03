@@ -89,6 +89,7 @@ img {
   left: 0;
   display: inline-block;
 }
+
 .nav_item:hover::after,
 .nav_item:first-child::after {
   background-color: #191919;
