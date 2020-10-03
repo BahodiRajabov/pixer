@@ -207,6 +207,7 @@ img {
 }
 .youtube_video {
   border-radius: 5px;
+  border: none;
 }
 .services {
   padding-top: 55px;
