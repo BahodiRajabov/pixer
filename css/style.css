@@ -97,6 +97,8 @@ img {
 
 .nav_item:active {
   background-color: rgba(25, 25, 25, 0.7);
+}
+.nav_item:active .nav_link {
   color: #fff;
 }
 .nav_item:active::after {
