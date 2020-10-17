@@ -116,6 +116,7 @@ img {
 
 .nav_sub_list {
   padding-top: 8px;
+  padding-bottom: 8px;
   list-style: none;
   padding-left: 0;
   margin-top: 0;
@@ -127,8 +128,6 @@ img {
   left: 50%;
   transform: translateX(-50%);
   display: none;
-}
-.nav_sub_item {
 }
 
 .nav_sub_link {
