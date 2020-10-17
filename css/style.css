@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/open-sans-v18-latin-regular.woff2") format("woff2"),
+  url("../fonts/open-sans-v18-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/open-sans-v18-latin-600.woff2") format("woff2"),
+  url("../fonts/open-sans-v18-latin-600.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/open-sans-v18-latin-700.woff2") format("woff2"),
+  url("../fonts/open-sans-v18-latin-700.woff") format("woff");
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -12,7 +39,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 24px;
   background-color: #fff;
@@ -564,11 +591,11 @@ img {
 /* _____________FOR RETINA SCREEN___________ */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min--moz-device-pixel-ratio: 2),
-  only screen and (-o-min-device-pixel-ratio: 2/1),
-  only screen and (min-device-pixel-ratio: 2),
-  only screen and (min-resolution: 192dpi),
-  only screen and (min-resolution: 2dppx) {
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
   .services_link_web::before {
     background-image: url("../img/website-illustration@2x.png");
   }
